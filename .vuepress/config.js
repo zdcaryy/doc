@@ -1,7 +1,7 @@
 module.exports = {
     base: '/docs/',
     locales: {
-        '/en/': {
+        '/': {
             title: "SKU Creator Manual",
         },
         '/zh/': {
@@ -12,7 +12,7 @@ module.exports = {
         logo: '/logo.svg',
         sidebar: 'auto',
         locales: {
-            '/en/': {
+            '/': {
                 title: "SKU Creator Manual",
                 selectText: 'Languages',
                 label: 'English',
@@ -26,9 +26,9 @@ module.exports = {
                 },
                 algolia: {},
                 nav: [
-                    { text: 'SKU Admin', link: '/en/' },
-                    { text: 'User Center', link: '/en/userCenter/' },
-                    { text: 'Log Record', link: '/en/logRecord/' },
+                    { text: 'SKU Admin', link: '/' },
+                    { text: 'User Center', link: '/userCenter/' },
+                    { text: 'Log Record', link: '/logRecord/' },
                 ],
             },
             '/zh/': {
